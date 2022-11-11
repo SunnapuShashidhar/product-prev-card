@@ -1,0 +1,90 @@
+* {
+  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: hsl(30, 38%, 92%);
+  font-size: 14px;
+}
+
+.gebri {
+  font-family: 'Fraunces', serif;
+}
+
+.img {
+  box-sizing: border-box;
+  width: 100%;
+  height: 600px;
+}
+
+.para {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  opacity: 0.7;
+  font-size: 1.5rem;
+  padding-right: 10px;
+  text-align: justify;
+}
+
+@media screen and (max-width:568px) {
+  .img {
+    height: 400px;
+  }
+}
+
+.but {
+  display: flex;
+  justify-content: center;
+}
+
+.green {
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 10px;
+  width: 75%;
+  height: 50px;
+  color: white;
+  font-size: larger;
+}
+
+.container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.textComponet {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+.col-md-6 {
+
+  height: auto;
+}
+
+.svg {
+  height: 15px;
+  width: 15px;
+}
+
+.cost {
+  display: flex;
+  justify-content: center;
+
+}
+
+.text-mutted {
+  opacity: 0.6;
+  letter-spacing: 5px;
+}
+
+.cost>h1 {
+  color: hsl(158, 36%, 37%);
+  margin-right: 5px;
+}
